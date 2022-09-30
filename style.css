@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: meraz;
+}
+@font-face {
+  font-family: meraz;
+  src: url('fonts/SutonnyMJ\ Regular.woff');
+}
+p{
+  text-align: left;
+  font-size: 18px;
+}
+.container{
+ display: flex;
+ margin: 10px 75px 0px 75px;
+ width: 85%; 
+
+}
+.left{
+  width: 27%;
+  margin-left: 20px;
+}
+.right{
+  width: 65%;
+  font-family: meraz;
+  margin-left: 40px;
+}
+.para{
+  font-size: 16px;
+  line-height: 194%;
+  text-align: start;
+  
+}
+.content{
+  display: flex;
+
+
+}
+.content-left{
+width: 50%;
+
+
+}
+.content-right{
+  width: 50%;
+  margin-left: 25px;
+}
+.imge{
+  margin-top: 25px;
+}
+.bang{
+  font-size: 16px;
+  font-size: 16px;
+  line-height: 170%;
+  text-align: start;
+
+}
+.last{
+ margin-left: 25px;
+ background-color: #FFE9DD;
+}
+h2{
+  background-color: #FFD3BF;
+}
